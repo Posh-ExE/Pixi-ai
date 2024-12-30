@@ -1,0 +1,56 @@
+# Build and IDE
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE specific
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+.vscode/
+
+# Project specific
+/output/
+*.mp4
+*.mp3
+*.wav
+*.srt
+*.ass
+*.log
+/ckpts/
+
+# Dependencies
+/node_modules/
+/venv/
+__pycache__/
+*.pyc
+
+# Environment and configs
+.env
+.env.local
+config.json
+credentials.json
+
+# OS specific
+.DS_Store
+Thumbs.db
