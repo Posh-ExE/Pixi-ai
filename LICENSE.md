@@ -1,1 +1,1 @@
-no lisence
+no license
